@@ -1,0 +1,21 @@
+{
+  "name": "teamspark_wallet",
+  "homepage": "https://github.com/MrLokans/teamspark_wallet",
+  "authors": [
+    "MrLokans <trikster1911@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
