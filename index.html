@@ -11,9 +11,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4" id="wallet-list">
-                <div class="row">
-                    <h3 class="col-md-6">My Wallets</h3>
-                    <h3 class="pull-right">+</h3>
+                <div class="row wallet-list-header">
+                    <h3 class="pull-left">My Wallets</h3>
+                    <h3 class="pull-right new-card-add"><a href="#">+</a></h3>
                 </div>
 
                 <div class="row single-card-wrapper">
@@ -61,24 +61,63 @@
             </div>
 
             <div class="col-md-8" id="account-changes">
-                <div class="row">
-                    <div class="pull-left">Current balance </div>
-                    <div class="pull-right" id="total-balance"><a href="#">$729.00</a></div>
-                    
+                <div class="row current-balance-info">
+                    <div class="pull-left current-balance-title">Current balance</div>
+                    <a href="#" class="pull-right" id="current-balance-value">$729.00</a>
                 </div>
 
-                <div class="row">
+                <div class="row account-change-detail">
                     <div class="col-md-1 item-type item-cost">
-                        
+                        -
                     </div>
                     <div class="col-md-9 item-description">
-                        <h4 class="row">Apple iPhone 6, 64 GB</h4>
-                        <small class="row">Electronics #343223 - 12 july, 2015</small>
+                        <div class="row">
+                            <h4 class="col-lg-12">Apple iPhone 6, 64 GB</h4>
+                        </div>
+                        <div class="row">
+                        <h5 class="col-lg-12 item-category text-muted">Electronics #343223 - 12 july, 2015</h5>     
+                        </div>
                     </div>
-                    <div class="col-md-2 item-value">
-                        $650.00
+                    <div class="col-md-2 text-center item-price price-cost">
+                        <strong>$650.00</strong>
                     </div>
                 </div>
+
+                <div class="row account-change-detail">
+                    <div class="col-md-1 item-type item-income">
+                        +
+                    </div>
+                    <div class="col-md-9 item-description">
+                        <div class="row">
+                            <h4 class="col-lg-12">Founds added</h4>
+                        </div>
+                        <div class="row">
+                        <h5 class="col-lg-12 item-category text-muted">Payment #343212 - 11 july, 2015</h5>     
+                        </div>
+                    </div>
+                    <div class="col-md-2 text-center item-price price-income">
+                        <strong>$900.00</strong>
+                    </div>
+                </div>
+
+                <div class="row account-change-detail">
+                    <div class="col-md-1 item-type item-cost">
+                        -
+                    </div>
+                    <div class="col-md-9 item-description">
+                        <div class="row">
+                            <h4 class="col-lg-12">Energy bill</h4>
+                        </div>
+                        <div class="row">
+                        <h5 class="col-lg-12 item-category text-muted">Payment #343566 - 11 july, 2015</h5>     
+                        </div>
+                    </div>
+                    <div class="col-md-2 text-center item-price price-cost">
+                        <strong>$84.96</strong>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </div>

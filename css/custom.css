@@ -1,6 +1,17 @@
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
 #wallet-list{
     background-color: #F2F2F2;
     padding: 40px;
+}
+
+.wallet-list-header {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .single-card-wrapper{
@@ -12,11 +23,46 @@
     border: 2px solid #E0E0E0;
     border-radius: 3px;
     padding: 15px;
+    max-width: 350px;
 }
 
 .single-card:hover{
     /*background-color: #ffffff;*/
     border: 3px solid #8291C8;
+}
+
+.current-balance-info {
+    padding: 25px 25px;
+    border-bottom: 1px solid gray;
+}
+
+.current-balance-title {
+    font-size: 23px;
+}
+
+.current-balance-value {
+    font-size: 25px !important;
+}
+
+.account-change-detail{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.item-category {
+
+}
+/* We have to find a way for the vertical allignment of the elements */
+.item-price {
+    font-size: 13px;
+}
+
+.price-cost {
+    color: #7D8CC4;
+}
+
+.price-income {
+    color: #7CD351;
 }
 
 .row {
