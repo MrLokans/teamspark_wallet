@@ -1,0 +1,29 @@
+{
+  "name": "teamspark_wallet",
+  "version": "1.0.0",
+  "description": "A simple wallet app with server and client.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrLokans/teamspark_wallet.git"
+  },
+  "keywords": [
+    "wallet",
+    "money",
+    "finance"
+  ],
+  "author": "MrLokans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrLokans/teamspark_wallet/issues"
+  },
+  "homepage": "https://github.com/MrLokans/teamspark_wallet#readme"
+}
